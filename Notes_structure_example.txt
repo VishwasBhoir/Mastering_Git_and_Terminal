@@ -1,0 +1,6 @@
+example for notes structure:
+
+
+1. command_name  => short for.
+      - description of notes.
+      - e.g.: example command here.

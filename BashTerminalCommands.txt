@@ -1,0 +1,36 @@
+1. ls => short for list.
+      - to least all the files and folders in repository.
+
+  ls-options:
+      -a
+      -l
+      -t
+
+
+2. start/open .(dot) =>
+       -  will open current repository in the file management software. example, Explorer in windows and finder in mac.
+       - start is for windows & open is for mac.
+
+
+3. ls 'repo_name' =>
+       - repo_name is name of the folder or repo inside current repo. if we want to list content of any repo in the current repo, we can add that repo_name next to ls command as argument to ls command and it will list content of that repo.
+       - e.g. 'ls vish' command here in and from this current repo will list the content of the 'vish' folder. which is present there inside the current repo.
+
+4. open/start 'repo_name' =>
+       - Similar to 'ls with repo_name' above we can open repo inside current folder that is "open vish" will open vish folder in finder and start 'repo_name' will open vish folder in Explorer.
+
+5. open/start 'outer_repo/repo_name' =>
+       - if we want to list the content of the folder inside current listed folders we have to specify path.
+       - if there I am in current main directory and where 'vish' folder is listed and there is another folder inside the 'vish' folder. now I am able to view vish folder with ls command because we are in current repo. but we can also list content of folder inside vish_folder but here we have to specify path.
+       - e.g.: ls vish/jui -- will list content of the jui_folder which is inside vish_folder which is inside current_repo.
+
+6. pwd  => print working directory.
+      - prints path of the current working directory. so that we can get to know which directory we are corrently in and path of that directory.
+      - e.g.: pwd (this command does not need any argument. just pwd).
+
+7. cd  => change directory.
+      - use to navigate thru the directories back and forth.
+      - e.g.: 1. cd .. to go back track one directory.
+              2. cd ../../
+              3. cd vish_folder
+              4. cd vish_folder/jui_folder
